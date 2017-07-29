@@ -970,6 +970,7 @@ HEADER STYLING
     color: white;
     padding: 0;
     height: 3em;
+    text-shadow:#999999 5px 5px 5px;
 }
 
 .header .container {
