@@ -1,4 +1,8 @@
-# Single Activity Architecture ?
+---
+layout: post
+title:  "Single Activity Architecture"
+date:   2017-04-15
+---
 
 2012년부터 본격적으로 안드로이드 개발을 시작하고 가장 많이 공부한 것이 `Fragment` 에 대한 것이었습니다. 처음 시작하는 안드로이드 개발자라면 그 누구라도
 `안드로이드 4대 컴퍼넌트`에 대해 열심히 공부하겠지만,
@@ -12,7 +16,7 @@
 
 점점 Activity는 껍데기 용으로 쓰이는 걸 느끼게 됩니다. 사용자의 요구, 기획적인 요구사항에 의해서 같은 화면을 다른 상황에서 다르게 보여줘야 될 일이 너무나
 많기 때문에 Fragment를 안 쓸 수는 없고... 결국 다음과 같은 코드도 조금씩 생기기 시작합니다.
-```
+```java
 public class UserActivity ... {
 
     public void onCeate() {
